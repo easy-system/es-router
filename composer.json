@@ -1,0 +1,26 @@
+{
+    "name": "easy-system/es-router",
+    "description": "Easy System Router",
+    "authors": [
+        {
+            "name": "Damon Smith",
+            "email": "damon.easy.system@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "psr/http-message": "^1.0",
+        "easy-system/es-component": "*",
+        "easy-system/es-exception": "*",
+        "easy-system/es-http": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Es\\Router\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Es\\Router\\Test\\": "test/" }
+    },
+    "minimum-stability": "dev"
+}
